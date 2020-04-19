@@ -1,7 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
 .navColor {
     background-color: rgb(28,22,51);
 }
-
 .btnColor {
     background: rgb(57, 96, 236);
 }
@@ -15,10 +17,21 @@
     background-image:linear-gradient(to top,rgb(143,92,215),rgb(57,202,213));
 }
 
+.sell-color{
+    background-image:linear-gradient(to bottom,rgb(143,92,215),rgb(57,202,213));
+}
 .store-seller {
     height: 250px;
 }
-
+.font{
+    font-family: 'Orbitron', sans-serif;
+}
+.seller-font{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.step-font{
+    font-family: 'Playball', cursive;
+}
 
 * {
     box-sizing: border-box;
@@ -29,7 +42,7 @@ body {
     font-family: Helvetica, sans-serif;
 }
 .processBg{
-    background-color: #474e5d;
+    background-color:black;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -65,7 +78,7 @@ body {
     position: absolute;
     width: 25px;
     height: 25px;
-    right: -17px;
+    right: -13px;
     background-color: white;
     border: 4px solid #FF9F55;
     top: 15px;
