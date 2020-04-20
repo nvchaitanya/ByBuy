@@ -14,20 +14,21 @@ html{
 
 
 .features-color {
-    background-image:linear-gradient(to top,rgb(143,92,215),rgb(57,202,213));
+    background-image:linear-gradient(to bottom,rgb(57,202,213),white);
 }
 
 .sell-color{
-    background-image:linear-gradient(to bottom,rgb(143,92,215),rgb(57,202,213));
+    background-image:linear-gradient(to bottom,rgb(57,202,213),white);
 }
 .store-seller {
     height: 250px;
 }
 .font{
     font-family: 'Orbitron', sans-serif;
+    
 }
 .seller-font{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family:Arial, Helvetica, sans-serif
 }
 .step-font{
     font-family: 'Playball', cursive;
