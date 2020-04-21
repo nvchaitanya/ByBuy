@@ -12,7 +12,9 @@ html{
     margin-top: 120px;
 }
 
-
+.top-bottom-marg{
+    margin:80px 0px;
+}
 .features-color {
     background-image:linear-gradient(to bottom,rgb(57,202,213),white);
 }
